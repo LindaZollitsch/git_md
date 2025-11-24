@@ -127,6 +127,18 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 
 ### Textfarbe
 
+```
+<span style="color:red">
+Dieser Text ist rot
+</span>
+```
+
+<span style="color:red">
+Dieser Text ist rot
+</span>
+
+Text in blau
+<!-- style="color: darkblue; font-size: 20px;" -->
 
 
 ## Einfügen von Inhalten
