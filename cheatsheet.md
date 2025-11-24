@@ -20,6 +20,10 @@ comment:  This document provides a brief introduction to Markdown.
 
 https://liascript.github.io/LiveEditor/?/edit/XARqDa105TNmxurx8ZWFVlhR 
 
+https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1
+
+
+
 ## Überschriften
 
 Überschriften werden durch (#) gekennzeichnet
