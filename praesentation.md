@@ -21,6 +21,11 @@ comment:  This document provides a brief introduction to Markdown.
 
 # Markdown
 
+hier können basics für Markdown über einen Editor genutzt werden
+
+https://liascript.github.io/LiveEditor/?/edit/XARqDa105TNmxurx8ZWFVlhR
+
+
 ## Überschriften
 
 Überschriften werden durch (#) gekennzeichnet
@@ -53,6 +58,15 @@ comment:  This document provides a brief introduction to Markdown.
 ************
 
 ## Text formatieren
+
+alles, was nicht mit Markdown geht, kann mit html ausgezeichnet werden
+
+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
+
+und für diejenigen, die ein css dahinterlegen wollen:
+
+https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf
+
 
 
 ### Schriftformatierung
@@ -137,9 +151,21 @@ Dieser Text ist rot
 Dieser Text ist rot
 </span>
 
-Text in blau
-<!-- style="color: darkblue; font-size: 20px;" -->
+```
+Text in dunkelblau <!-- style="color: darkblue" -->
+```
 
+Text in dunkelblau <!-- style="color: darkblue" -->
+
+
+
+### Textgröße
+
+```
+Text in etwas größer <!-- style="font-size: 20px;" -->
+```
+
+Text in etwas größer <!-- style="font-size: 20px;" -->
 
 ## Einfügen von Inhalten
 
