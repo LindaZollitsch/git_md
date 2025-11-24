@@ -126,6 +126,10 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 | Text     |   Text   |     Text |
 
 
+### Textfarbe
+
+
+
 ## Einfügen von Inhalten
 
 ### Einfügen von Bildern
@@ -136,6 +140,37 @@ Gallerie:
 ![img1](url) ![img2](url) ![img3](url)
 ![img4](url)
 ![img5](url)
+
+
+#### Bildgröße und Position
+
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)
+
+{{1-3}}
+************
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" -->
+```
+************
+
+{{2-3}}
+************
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" -->
+
+************
+
+{{3-5}}
+************
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+```
+************
+
+{{4-5}}
+************
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+
+************
 
 ### Einfügen von Audio:
 
