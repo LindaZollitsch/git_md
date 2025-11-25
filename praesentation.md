@@ -14,11 +14,6 @@ comment:  This document provides a brief introduction to Markdown.
 
 -->
 
-# git
-
-
-
-
 
 # Markdown
 
