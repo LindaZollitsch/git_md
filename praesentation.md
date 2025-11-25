@@ -19,19 +19,18 @@ comment:  This document provides a brief introduction to Markdown.
 
 
 
+
 # Markdown
 
-hier können basics für Markdown über einen Editor genutzt werden
+hier können Basics für Markdown über einen Editor genutzt (und gecheated) werden
 
 https://liascript.github.io/LiveEditor/?/edit/XARqDa105TNmxurx8ZWFVlhR
 
 
 ## Überschriften
 
-Überschriften werden durch (#) gekennzeichnet
+Überschriften werden durch (#) gekennzeichnet und können bis zu 6 Stufen haben:
 
-{{1-2}}
-************
 
 ```
  # H1      
@@ -43,19 +42,7 @@ https://liascript.github.io/LiveEditor/?/edit/XARqDa105TNmxurx8ZWFVlhR
 
 ```
 
-************
 
-{{2}}
-************
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-************
 
 ## Text formatieren
 
@@ -63,15 +50,12 @@ alles, was nicht mit Markdown geht, kann mit html ausgezeichnet werden
 
 https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
-und für diejenigen, die ein css dahinterlegen wollen:
-
-https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf
-
 
 
 ### Schriftformatierung
 
-
+{{1-2}}
+************
 kursiv: der Begriff italic mit je einem Sternchen * * links und rechts → *italic*
 
 fett: der Begriff bold mit je zwei Sternchen ** ** links und rechts → **bold**
@@ -80,6 +64,22 @@ kursiv und fett: die Begriffe bold and italic ausgeschrieben mit je drei Sternch
 
 durchgestrichen: der Begriff strike mit je ~ ~ links und rechts → ~strike~
 
+************
+
+{{2}}
+************
+
+```
+*italic*
+
+**bold**
+
+***bold and italic***
+
+~strike~
+```
+
+************
 
 ### Listen
 
@@ -115,6 +115,7 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 ```
 1. Apfel
 2. Birne
+
     * Helene
 1. Kiwi
 
@@ -141,69 +142,106 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 
 ### Textfarbe
 
-```
-<span style="color:red">
-Dieser Text ist rot
-</span>
-```
-
-<span style="color:red">
-Dieser Text ist rot
-</span>
-
-```
-Text in dunkelblau <!-- style="color: darkblue" -->
-```
-
-Text in dunkelblau <!-- style="color: darkblue" -->
-
-
-
-### Textgröße
-
-```
-Text in etwas größer <!-- style="font-size: 20px;" -->
-```
-
-Text in etwas größer <!-- style="font-size: 20px;" -->
-
-## Einfügen von Inhalten
-
-### Einfügen von Bildern
-
-![alt-text](path)
-
-Gallerie: 
-![img1](url) ![img2](url) ![img3](url)
-![img4](url)
-![img5](url)
-
-
-#### Bildgröße und Position
-
-![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)
-
-{{1-3}}
+{{1-2}}
 ************
+mit html - wird allerdings in Markdown nicht angezeigt (bei LiaScript jedoch schon)
+
 ```
-![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" -->
+<span style="color:red">
+Dieser Text ist rot
+</span>
 ```
 ************
 
 {{2-3}}
 ************
-![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" -->
+<span style="color:red">
+Dieser Text ist rot
+</span>
+
+************
+
+{{3}}
+************
+
+oder alternativ für LiaScript auch so möglich
+
+```
+Text in dunkelblau <!-- style="color: darkblue" -->
+```
+
+Text in dunkelblau <!-- style="color: darkblue" -->
+
+************
+
+### Textgröße
+
+```
+Text in etwas größer <!-- style="font-size: 40px;" -->
+```
+
+Text in etwas größer <!-- style="font-size: 40px;" -->
+
+## Einfügen von Inhalten
+
+es können verschiedene Inhalte eingebunden werden.
+
+### Einfügen von Bildern
+
+{{1-2}}
+************
+```
+![alt-text](path)
+```
+
+************
+
+{{2}}
+************
+```
+Galerie: 
+![img1](url) ![img2](url) ![img3](url)
+```
+************
+
+
+#### Bildgröße und Position
+
+{{1-3}}
+************
+
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)
+```
+************
+
+{{2-3}}
+************
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)
 
 ************
 
 {{3-5}}
 ************
 ```
-![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="150px" -->
 ```
 ************
 
 {{4-5}}
+************
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="150px" -->
+
+************
+
+{{5}}
+************
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+```
+************
+
+{{6}}
 ************
 ![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
 
@@ -211,27 +249,20 @@ Gallerie:
 
 ### Einfügen von Audio:
 
+```
 ?[alt-text](url)
+```
 
 ### Einfügen von Videos
 
+```
 !?[alt-text](path or url)
+```
 
 ### Einfügen von Links
 
-```
-[inline-style link](https://www.google.com)
-
-[inline-style link with title](https://www.google.com "Google's Homepage")
-
-[relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com>.
+{{1-2}}
+************
 
 ```
 [inline-style link](https://www.google.com)
@@ -240,14 +271,19 @@ http://www.example.com or <http://www.example.com>.
 
 [relative reference to a repository file](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+```
+************
 
-Or leave it empty and use the [link text itself].
+{{2}}
+************
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com>.
+[inline-style link](https://www.google.com)
 
+[inline-style link with title](https://www.google.com "Google's Homepage")
 
+[relative reference to a repository file](../blob/master/LICENSE)
+
+************
 
 
 
