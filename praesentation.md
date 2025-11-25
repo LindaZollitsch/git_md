@@ -181,14 +181,14 @@ Text in dunkelblau <!-- style="color: darkblue" -->
 ```
 Text in  <font size=7>groß</font> 
 
-Text in etwas <font size=+1>größer</font>
+Text in etwas <font size=+3>größer</font>
 
 Text in etwas <font size=-2>kleiner</font>
 ```
 
 Text in  <font size=7>groß</font> 
 
-Text in etwas <font size=+1>größer</font>
+Text in etwas <font size=+3>größer</font>
 
 Text in etwas <font size=-2>kleiner</font>
 
