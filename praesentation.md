@@ -336,6 +336,116 @@ https://www.google.com
 [^1]: Picture of Linus Torvalds: Lf Asia, CC-BY 3.0 unported
 
 
+### Working with Git
+
+**Working Online:**
+
+- Sync with remote repositories over the internet.
+- Maintain continuous synchronization with a central repository online.
+
+
+### Branches and Tags
+
+Branches and tags are both mechanisms for labeling and identifying specific points in the version history of a repository.
+
+{{1}}
+********************************************************************************
+
+**Branches:**
+
+```mermaid @mermaid
+gitGraph
+    commit id: "2b952fda"
+    commit
+    branch dev
+    checkout dev
+    commit
+    commit
+    branch feature_branch
+    commit
+    commit
+    checkout dev
+    merge feature_branch
+    checkout dev
+    commit
+    checkout main
+    merge dev
+    checkout dev
+    commit
+    commit
+    checkout main
+    merge dev
+    checkout dev
+    commit
+```
+
+- When you work with a git repository you always work in a *branch*.
+
+  - Branches are identified by a name. The default branch is commonly named `main`.
+  - Each commit on a branch is identified by a unique *commit hash*, e.g., `2b952fda`.
+  - The branch name itself always points to the latest commit.
+
+- To pursue uninterrupted development or test features without affecting collaborators, creating a new branch is advisable. Common are branches for:
+
+  - A stable version (often the `main` branch).
+  - Ongoing development (often called `dev`).
+  - Introducing new features (typically named after the feature that is realised, e.g., `feature_branch`).
+
+- Branches are identified by a name and reference a *commit*, with the branch name always pointing to the latest commit.
+
+- To integrate changes from one branch into another, you can perform a *merge*, which involves incorporating all commits from the branch to be merged into the current branch (and resolving any conflicts that arise).
+
+  > **Git commands:** [git branch](https://git-scm.com/docs/git-branch) and [git merge](https://git-scm.com/docs/git-merge)
+
+********************************************************************************
+
+<div style="page-break-after: always;"></div>
+
+{{2}}
+********************************************************************************
+
+**Tags:**
+
+```mermaid @mermaid
+gitGraph
+    commit id: "2b952fda"
+    commit tag: "v0.0.1"
+    branch dev
+    checkout dev
+    commit tag: "milestone1"
+    commit
+    branch feature_branch
+    commit
+    commit
+    checkout dev
+    merge feature_branch
+    checkout dev
+    commit tag: "alpha"
+    checkout main
+    merge dev tag: "v1.0.0"
+    checkout dev
+    commit
+    commit
+    checkout main
+    merge dev tag: "v1.0.1"
+    checkout dev
+    commit
+```
+
+- When you want to mark a specific commit for later reference, you can tag it.
+
+  - For instance, you might tag a commit to signify a specific version of your work, such as `1.0.0`, `alpha` or `milestone1`.
+
+- *Tags* have a name and always refer to the same *commit*, unless you change it yourself.
+
+> **Git command:** [git tag](https://git-scm.com/docs/git-tag)
+
+********************************************************************************
+
+<div style="page-break-after: always;"></div>
+
+
+
 # genutze Literatur / Vorlagen
 
 https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet#headers
