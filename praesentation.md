@@ -295,6 +295,45 @@ https://www.google.com
 
 ************
 
+# GIT
+
+
+**What is Version Management?**
+
+- Keeping different variations of something in a comprehensible way.
+
+  - Mostly files, in context of computers
+  - Example:
+
+    ```console
+    File_v1.txt
+    File_v2.txt
+    ```
+
+- Complex, if working with several people on the same thing at different locations
+
+  - How to deal with editing conflicts?
+  - How to deal with related files distributed in complex file hierarchies?
+  - Manifold of creative approaches to file naming and version numbers
+  - E-mail server as storage system
+
+<div style="page-break-after: always;"></div>
+
+### What is Git
+
+![Linus Torvalds](/assets/images/Linus_Torvalds_Wikimedia.jpeg) <!-- align=right -->
+
+- Warning: **Git is a complex beast**
+- Open Source DVCS developed by Linus Torvalds[^1] for Linux-Kernel development
+- Designed to facilitate:
+
+  - Collaboration among diverse contributors worldwide.
+  - Managing huge amounts of text files, notably source code files.
+  - Managing changes spanning multiple files within complex directory structures.
+  - Exploring (and discarding) different approaches of development.
+  - Managing different variants and releases.
+
+[^1]: Picture of Linus Torvalds: Lf Asia, CC-BY 3.0 unported
 
 
 # genutze Literatur / Vorlagen
@@ -302,3 +341,5 @@ https://www.google.com
 https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet#headers
 
 https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1
+
+Git-Präsentation von Bitta, Thilo und Thorge
