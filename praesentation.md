@@ -56,28 +56,27 @@ https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
 {{1-2}}
 ************
-kursiv: der Begriff italic mit je einem Sternchen * * links und rechts → *italic*
+```
+kursiv: *italic*
 
-fett: der Begriff bold mit je zwei Sternchen ** ** links und rechts → **bold**
+fett: **bold**
 
-kursiv und fett: die Begriffe bold and italic ausgeschrieben mit je drei Sternchen ***  *** links und rechts → ***bold and italic***
+kursiv und fett: ***bold and italic***
 
-durchgestrichen: der Begriff strike mit je ~ ~ links und rechts → ~strike~
-
+durchgestrichen: ~strike~
+```
 ************
 
 {{2}}
 ************
 
-```
-*italic*
+kursiv: *italic*
 
-**bold**
+fett: **bold**
 
-***bold and italic***
+kursiv und fett: ***bold and italic***
 
-~strike~
-```
+durchgestrichen: ~strike~
 
 ************
 
@@ -119,6 +118,7 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
     * Helene
 1. Kiwi
 
+
 ```
 ************
 
@@ -127,6 +127,7 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 
 1. Apfel
 2. Birne
+
     * Helene
 1. Kiwi
 
