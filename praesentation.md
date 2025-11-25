@@ -129,7 +129,7 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 2. Birne
 
     * Helene
-1. Kiwi
+3. Kiwi
 
 ************
 
