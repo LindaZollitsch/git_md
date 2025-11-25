@@ -136,14 +136,15 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 
 ### Tabellen
 
-| Column 1 | Column 2 | Column 3 |
-| -------- | :------: | -------: |
-| Text     |   Text   |     Text |
+| Spalte 1  | Spalte 2  | Spalte 3  |
+| --------- | :-------: | --------: |
+| Text 1    |   Text 1  |    Text 1 |
+| Text 2    |   Text 2  |    Text 2 |
 
 
 ### Textfarbe
 
-{{1-2}}
+{{1-3}}
 ************
 mit html - wird allerdings in Markdown nicht angezeigt (bei LiaScript jedoch schon)
 
@@ -266,6 +267,8 @@ Galerie:
 ************
 
 ```
+https://www.google.com
+
 [inline-style link](https://www.google.com)
 
 [inline-style link with title](https://www.google.com "Google's Homepage")
@@ -277,6 +280,8 @@ Galerie:
 
 {{2}}
 ************
+
+https://www.google.com
 
 [inline-style link](https://www.google.com)
 
