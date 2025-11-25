@@ -28,8 +28,6 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/
 
 Überschriften werden durch (#) gekennzeichnet
 
-{{1-2}}
-************
 
 ```
  # H1      
@@ -41,39 +39,31 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/
 
 ```
 
-************
+## Text formatieren
 
-{{2}}
-************
+alles, was nicht mit Markdown geht, kann mit html ausgezeichnet werden
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-************
-
-## Schriftformatierung
-
-
-italic mit Sternchen * *  → *italic*
-
-bold mit zwei Sternchen ** ** → **bold**
-
-bold and italic *** *** → ***bold and italic***
-
-strike mit ~ ~ → ~strike~
+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
 
 
-## Listen
+### Schriftformatierung
+
+```
+kursiv: *italic*
+
+fett: **bold**
+
+kursiv und fett: ***bold and italic***
+
+durchgestrichen: ~strike~
+
+```
+
+### Listen
 
 Einfache Aufzählungen mit * zu Beginn der Zeile
 
-{{1-2}}
-************
 
 ```
 * Apfel
@@ -83,10 +73,7 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 * Kiwi
 
 ```
-************
 
-{{2-3}}
-************
 
 * Apfel
 
@@ -94,32 +81,70 @@ Einfache Aufzählungen mit * zu Beginn der Zeile
 
 * Kiwi
 
-************
-
-{{3-4}}
-************
+ oder mit Nummern
 
 ```
 1. Apfel
 2. Birne
+
     * Helene
-1. Kiwi
+3. Kiwi
 
 ```
-************
 
-{{4}}
-************
 
 1. Apfel
 2. Birne
+
     * Helene
-1. Kiwi
+3. Kiwi
 
 ************
 
 
-## Tabellen
+### Tabellen
+
+| Spalte 1  | Spalte 2  | Spalte 3  |
+| --------- | :-------: | --------: |
+| Text 1    |   Text 1  |    Text 1 |
+| Text 2    |   Text 2  |    Text 2 |
+
+
+
+### Textfarbe
+
+mit html - wird allerdings in Markdown nicht angezeigt (bei LiaScript jedoch schon)
+
+```
+<span style="color:red">
+Dieser Text ist rot
+</span>
+```
+
+<span style="color:red">
+Dieser Text ist rot
+</span>
+
+
+
+### Textgröße
+
+```
+Text in  <font size=7>groß</font> 
+
+Text in etwas <font size=+1>größer</font>
+
+Text in etwas <font size=-2>kleiner</font>
+
+```
+
+Text in  <font size=7>groß</font> 
+
+Text in etwas <font size=+1>größer</font>
+
+Text in etwas <font size=-2>kleiner</font>
+
+
 
 ## Einfügen von Inhalten
 
