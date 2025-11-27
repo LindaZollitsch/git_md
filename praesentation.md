@@ -321,10 +321,8 @@ https://www.google.com
 
 ### What is Git
 
-![Linus Torvalds](/assets/images/Linus_Torvalds_Wikimedia.jpeg) <!-- align=right -->
-
 - Warning: **Git is a complex beast**
-- Open Source DVCS developed by Linus Torvalds[^1] for Linux-Kernel development
+- Open Source DVCS developed by Linus Torvalds for Linux-Kernel development
 - Designed to facilitate:
 
   - Collaboration among diverse contributors worldwide.
@@ -333,7 +331,6 @@ https://www.google.com
   - Exploring (and discarding) different approaches of development.
   - Managing different variants and releases.
 
-[^1]: Picture of Linus Torvalds: Lf Asia, CC-BY 3.0 unported
 
 
 ### Working with Git
