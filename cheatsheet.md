@@ -60,6 +60,14 @@ durchgestrichen: ~strike~
 
 ```
 
+kursiv: *italic*
+
+fett: **bold**
+
+kursiv und fett: ***bold and italic***
+
+durchgestrichen: ~strike~
+
 ### Listen
 
 Einfache Aufzählungen mit * zu Beginn der Zeile
@@ -129,6 +137,8 @@ Dieser Text ist rot
 
 ### Textgröße
 
+mit html - wird allerdings in Markdown nicht angezeigt (bei LiaScript jedoch schon)
+
 ```
 Text in  <font size=7>groß</font> 
 
@@ -152,10 +162,27 @@ Text in etwas <font size=-2>kleiner</font>
 
 ![alt-text](path)
 
-Gallerie: 
+![ein Bild](/images/img_fdm-zyklus_2022_CM.jpg)
+
+Galerie: 
 ![img1](url) ![img2](url) ![img3](url)
 ![img4](url)
 ![img5](url)
+
+-----
+
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)<!-- width="150px" -->
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg)<!-- width="150px" -->
+
+```
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+```
+
+![FDM-Lebenszyklus](/images/img_fdm-zyklus_2022_CM.jpg) <!-- width="350px" align="right" -->
+
+
 
 ### Einfügen von Audio:
 
@@ -168,32 +195,22 @@ Gallerie:
 ### Einfügen von Links
 
 ```
+https://www.google.com
+
 [inline-style link](https://www.google.com)
 
 [inline-style link with title](https://www.google.com "Google's Homepage")
 
 [relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com>.
 
 ```
+https://www.google.com
+
 [inline-style link](https://www.google.com)
 
 [inline-style link with title](https://www.google.com "Google's Homepage")
 
 [relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com>.
 
 
 
