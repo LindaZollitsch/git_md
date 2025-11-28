@@ -3,6 +3,7 @@
 author:   Linda Zollitsch
 email:    zollitsch@ub.uni-kiel.de
 version:  0.1.0
+license:  CC-BY
 language: de
 narrator: UK English Female
 
@@ -13,6 +14,11 @@ link: https://raw.githubusercontent.com/RDM4CAU/Intro-to-RDM/refs/heads/main/cau
 comment:  This document provides a brief introduction to Markdown.
 
 -->
+
+# Start
+
+
+Dieses Werk ist lizensiert unter CC-BY (https://creativecommons.org/licenses/by/4.0/)
 
 
 # Markdown
