@@ -4,6 +4,7 @@ author:   Linda Zollitsch
 email:    zollitsch@ub.uni-kiel.de
 version:  0.1.0
 language: de
+license:  CC-BY
 narrator: UK English Female
 
 icon:     images/Logo_cau-norm-de-lilagrey-rgb-0720_2022.png
